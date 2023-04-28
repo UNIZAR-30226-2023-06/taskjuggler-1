@@ -1,39 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
-@a796022
-UNIZAR-30226-2023-06 /
-taskjuggler-1
-Public
-forked from UNIZAR-30226-2023-06/taskjuggler
-
-Fork your own copy of UNIZAR-30226-2023-06/taskjuggler-1
-
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-
-    Settings
-
-Beta Try the new code view
-taskjuggler-1/P6_proySW.tjp
-@a796022
-a796022 Update P6_proySW.tjp
-Latest commit bee7c7f Apr 28, 2023
-History
-3 contributors
-@rbejar
-@a796022
-@jazarso
-385 lines (345 sloc) 11 KB
 /*
  * This file contains the practice 6 source code corresponding with the 
  * project planification using TaskJuggler in the "Proyecto Software" course.
