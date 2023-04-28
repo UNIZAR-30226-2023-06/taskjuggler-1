@@ -188,10 +188,10 @@ task WMGame "Web & Mobile Game" {
   }
 
   task nube "Uso de la nube para el proyecto" {
-      effort 10d
+      effort 1d
       allocate boss
       allocate dev2
-      actual:effort 15d
+      actual:effort 2d
       journalentry 2023-04-13 "Problems with the planned dates" {
         author boss
         alert red
