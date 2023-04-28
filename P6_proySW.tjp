@@ -1,3 +1,39 @@
+
+Skip to content
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+@a796022
+UNIZAR-30226-2023-06 /
+taskjuggler-1
+Public
+forked from UNIZAR-30226-2023-06/taskjuggler
+
+Fork your own copy of UNIZAR-30226-2023-06/taskjuggler-1
+
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+    Settings
+
+Beta Try the new code view
+taskjuggler-1/P6_proySW.tjp
+@a796022
+a796022 Update P6_proySW.tjp
+Latest commit bee7c7f Apr 28, 2023
+History
+3 contributors
+@rbejar
+@a796022
+@jazarso
+385 lines (345 sloc) 11 KB
 /*
  * This file contains the practice 6 source code corresponding with the 
  * project planification using TaskJuggler in the "Proyecto Software" course.
@@ -155,11 +191,6 @@ task WMGame "Web & Mobile Game" {
       effort 9d
       actual:effort 15d
       allocate dev3
-      journalentry 2023-04-11 "Problems with the GUI (mobile) design tool" {
-        author dev3
-        alert yellow
-        summary "The tool used for the GUI design has given me a lot of problems. I recommend to look for other one."
-      }
     }
     task tFEcmobile "Mobile Front End Construction" {
       effort 15d
@@ -183,6 +214,15 @@ task WMGame "Web & Mobile Game" {
         alert red
         summary "The whole team asiigned to this task has a trip to visit a new client from May 7th to May 12th. Needed to check if the project can be finished on time or it is necessary to reasign efforts."
       }
+      depends WMGame.twebF
+      depends WMGame.tback
+  }
+
+  task nube "Uso de la nube para el proyecto" {
+      effort 10d
+      allocate boss
+      allocate dev2
+      actual:effort 15d
       depends WMGame.twebF
       depends WMGame.tback
   }
@@ -383,3 +423,19 @@ resourcereport resourceGraph "" {
   hidetask ~(isleaf() & isleaf_())
   sorttasks plan.start.up
 }
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
